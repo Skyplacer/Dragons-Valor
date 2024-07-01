@@ -5,6 +5,7 @@ devices. The story focuses on the player character as they embark on a quest to 
 save their kingdom. As the player embarks on their journey, they face a variety of scenarios where 
 they are presented with three choices. The player can choose one choice for each scenario and the 
 choice they make will determine the morality of their character.  
+
 The game features a mechanism known as the morality value and it will either increase, decrease or 
 remain the same based on the choice the player makes at each scenario. This morality meter will 
 determine what ending the player will receive at the end of the story with high morality value 
