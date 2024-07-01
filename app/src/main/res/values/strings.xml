@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Dragon\'s Valour</string>
+    <string name="welcome"> Begin Your Journey </string>
+    <string name="about"> About </string>
+    <string name="about_description"> Provides gamers with a deeply engrossing story right at their fingertips with branching narratives that shape the story as they progress ensuring one gameplay is unlike the others. These game examines a person\'s moral code and how their decisions shape the outcome of the story </string>
+    <string name="Instruction1"> Pick your character </string>
+    <string name="Instruction2"> Read the given story context carefully </string>
+    <string name="Instruction3"> Go through the given choices and select one that you think is the most ideal </string>
+    <string name="Instruction4"> See where your choices take you and arrive at the one of the possible story endings </string>
+    <string name="Instruction5"> Enter your name here </string>
+    <string name="stage1_description"> The player finds themselves in the bustling town of Evermere, a once peaceful settlement now plagued by the looming threat of a fearsome dragon. As the player surveys the town, they notice the anxious faces of the townsfolk and the charred remnants of buildings destroyed by the dragon\'s fiery breath. </string>
+    <string name="stage1_choice1"> Assist the Injured </string>
+    <string name="stage1_choice2"> Loot the Abandoned Houses </string>
+    <string name="stage1_choice3"> Scout the Town Defenses </string>
+    <string name="stage2_description"> As the player embarks on their quest to slay the dragon, they find themselves standing at the edge of a dark and foreboding forest. The dense trees loom overhead, their branches casting eerie shadows. To progress further, they must make a choice: </string>
+    <string name="stage2_choice1"> Help a Lost Traveler </string>
+    <string name="stage2_choice2"> Steal Supplies from a travelling merchant</string>
+    <string name="stage2_choice3"> Continue on the Path Without Distraction </string>
+    <string name="stage3_description"> The player now Stands outside the dragon\'s castle. They can engage the dragon\'s loyal knights in combat, risking alerting the dragon but being unchallenged inside. Alternatively, they can silently infiltrate the castle, facing the knights later, or cause a distraction at the cost of innocent lives. </string>
+    <string name="stage3_choice1"> Engage in Combat with the Knights </string>
+    <string name="stage3_choice2"> Silently Infiltrate the Castle </string>
+    <string name="stage3_choice3"> Create a Distraction at the Cost of Innocent Lives </string>
+    <string name="stage4_description"> Standing face to face with the menacing dragon. You can adopt a defensive approach, prioritizing minimizing harm to both parties, or opt for an aggressive assault, aiming for a swift victory but risking collateral damage. Alternatively, you could use ranged attacks to strike from a distance </string>
+    <string name="stage4_choice1"> Defensive Approach </string>
+    <string name="stage4_choice2"> Aggressive Assault </string>
+    <string name="stage4_choice3"> Ranged Attacks </string>
+    <string name="good_ending"> You ascend to heroism, basking in the adoration of the kingdom. Your name reverberates through history as the valiant savior, cherished by all. Adorned with accolades and hailed as the epitome of courage, you stand tall as the guardian of peace, your deeds immortalized in songs and tales, inspiring generations to come. </string>
+    <string name="bad_ending"> Despite defeating the dragon, your thirst for power consumes you, morphing into a despotic ruler. Fear grips the kingdom as your iron fist crushes dissent, plunging the land into darkness. your legacy tarnished, you reign as a tyrant, overshadowing the dragon\'s threat with your own tyranny. </string>
+    <string name="neutral_ending"> While the dragon\'s demise brings relief, your actions spark divided opinions. Some laud your bravery, viewing you as a hero, while others question the methods employed. Contemplating the mixed reception, you choose to depart, leaving behind a realm grappling with uncertainty, your ultimate fate unknown. </string>
+</resources>

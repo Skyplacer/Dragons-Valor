@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/light_grey"
+    tools:context=".Settings">
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="412dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="-63dp"
+        android:background="@color/grey"
+        android:text="Settings"
+        android:textAlignment="center"
+        android:textColor="@color/crimson"
+        android:textSize="48sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.089" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="151dp"
+        android:layout_height="39dp"
+        android:layout_marginTop="192dp"
+        android:layout_marginEnd="230dp"
+        android:text="Appearance"
+        android:textColor="@color/crimson"
+        android:textSize="24dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="151dp"
+        android:layout_height="39dp"
+        android:layout_marginTop="370dp"
+        android:layout_marginEnd="230dp"
+        android:text="Notifications"
+        android:textColor="@color/crimson"
+        android:textSize="24dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="151dp"
+        android:layout_height="39dp"
+        android:layout_marginTop="530dp"
+        android:layout_marginEnd="230dp"
+        android:text="Language"
+        android:textColor="@color/crimson"
+        android:textSize="24dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <RadioButton
+            android:id="@+id/radioButton1"
+            android:layout_width="107dp"
+            android:layout_height="59dp"
+            android:layout_marginTop="232dp"
+            android:layout_marginStart="10dp"
+            android:checked="true"
+            android:text="Light"
+            android:textColor="@color/dark_grey"
+            android:textSize="24dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <RadioButton
+            android:id="@+id/radioButton2"
+            android:layout_width="107dp"
+            android:layout_height="59dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginStart="10dp"
+            android:text="Dark"
+            android:textColor="@color/dark_grey"
+            android:textSize="24dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </RadioGroup>
+
+    <RadioGroup
+        android:id="@+id/radioGroup2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="156dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <RadioButton
+            android:id="@+id/radioButton3"
+            android:layout_width="107dp"
+            android:layout_height="59dp"
+            android:layout_marginTop="320dp"
+            android:layout_marginStart="10dp"
+            android:text="Off"
+            android:textColor="@color/dark_grey"
+            android:textSize="24dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <RadioButton
+            android:id="@+id/radioButton7"
+            android:layout_width="107dp"
+            android:layout_height="59dp"
+            android:layout_marginTop="-120dp"
+            android:layout_marginStart="10dp"
+            android:text="On"
+            android:textColor="@color/dark_grey"
+            android:textSize="24dp"
+            android:checked="true"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </RadioGroup>
+
+    <RadioGroup
+        android:id="@+id/radioGroup3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <RadioButton
+            android:id="@+id/radioButton4"
+            android:layout_width="120dp"
+            android:layout_height="75dp"
+            android:layout_marginTop="545dp"
+            android:layout_marginStart="10dp"
+            android:checked="true"
+            android:text="English"
+            android:textColor="@color/dark_grey"
+            android:textSize="24dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <RadioButton
+            android:id="@+id/radioButton6"
+            android:layout_width="127dp"
+            android:layout_height="59dp"
+            android:layout_marginTop="-13dp"
+            android:layout_marginStart="10dp"
+            android:text="French"
+            android:textColor="@color/dark_grey"
+            android:textSize="24dp"
+            app:layout_constraintBottom_toTopOf="@+id/radioButton5"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="1.0" />
+
+        <RadioButton
+            android:id="@+id/radioButton5"
+            android:layout_width="137dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:layout_marginStart="10dp"
+            android:text="Spanish"
+            android:textColor="@color/dark_grey"
+            android:textSize="24dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="413dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="120dp"
+        android:text="  Your settings will be saved"
+        android:textSize="32sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
